@@ -1,0 +1,29 @@
+body {
+  background-image: url("backdog.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  padding-top: 5rem;
+  max-width: 600px;
+}
+
+.input-box, .output-box {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent for contrast */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+label {
+  font-size: 1.25rem;
+}
+
+#output {
+  font-size: 2rem;
+  color: #ffeb3b;
+}
