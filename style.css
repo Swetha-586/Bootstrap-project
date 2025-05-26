@@ -1,0 +1,59 @@
+/* Reset default margin and padding for all elements */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Full-screen background image styling for the body */
+body {
+  background-image: url('dog.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: transparent !important; /* Transparent navbar over background */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+/* Navbar brand and nav links styling */
+.navbar .navbar-nav .nav-link,
+.navbar-brand {
+  color: white !important;      /* White text for visibility */
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* Heading section - main title */
+.heading h1 {
+  height: 100px;
+  display: flex;
+  justify-content: left;
+  align-content: flex-start;
+  color: rgb(225, 142, 65);      /* Orange shade */
+}
+
+/* Paragraph under heading */
+.heading p {
+  font-size: 1.3rem;
+  color: #f0eaea;
+  line-height: 2.2rem;
+}
+
+/* Primary button styling */
+.btn-primary {
+  background-color: #00bcd4;     /* Cyan blue */
+  border: none;
+}
+
+/* Outline button styling */
+.btn-outline-light {
+  border: 2px solid #f8f9fa;
+  color: #f8f9fa;
+}
